@@ -170,6 +170,10 @@ img.founder {
     padding: 0;
 }
 
+.only-mobile {
+    display: none;
+}
+
 @media (max-width:720px) {
     .footer {
         text-align: center;
@@ -182,5 +186,69 @@ img.founder {
     }
     .footer .row a i {
         margin: 0% 3%;
+    }
+    #myVideo {
+        height: auto;
+    }
+    .site-title {
+        position: static;
+    }
+    .contenthead {
+        top: 5vh;
+    }
+    .content {
+        position: absolute;
+        top: 155px;
+        width: 100%;
+        padding: 9px;
+    }
+    #myBtn {
+        width: 53px;
+        font-size: 12px;
+        padding: 2px 1px;
+        border: none;
+        background: #ddd;
+        color: black;
+        cursor: pointer;
+        font-weight: bolder;
+        border-radius: 30px;
+    }
+    .com-info h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .only-mobile {
+        display: block;
+    }
+    .only-desktop {
+        display: none;
+    }
+    img.founder {
+        width: 60%;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        filter: drop-shadow(7px 7px 15px #222);
+        margin: auto;
+    }
+    .com-info p {
+        margin-top: 22px;
+    }
+    h1.main-heading {
+        text-align: center;
+        font-size: 30px;
+    }
+    .food {
+        margin-bottom: 13px;
+    }
+    .container.my-5.pt-5 {
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    .container.my-5.py-5 {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    img.product-image-style {
+        margin-bottom: 10px;
     }
 }
